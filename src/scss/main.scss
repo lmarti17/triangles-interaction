@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+#application{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.triangle{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 20px 30px 20px;
+	border-color: transparent transparent #007bff transparent;
+	margin: 25px;
+
+	&.isRed{
+		border-color: transparent transparent red transparent;
+	}
+
+	&.isBlue{
+		border-color: transparent transparent red transparent;
+	}
+
+	&.isGreen{
+		border-color: transparent transparent green transparent;
+	}
+
+}
